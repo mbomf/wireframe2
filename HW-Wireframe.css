@@ -1,0 +1,185 @@
+* {
+box-sizing: border-box;
+align-content: center;
+}  
+
+
+header {
+    font-size: 30px;
+    padding: 5px 20px 20px 0px;
+    text-align: right;
+    margin-bottom: 20px;
+    float: left;
+    width: 100%;
+    align-content: right;
+    color: rgb(255, 255, 255);
+    background: linear-gradient(
+    35deg, 
+    #f700ffc4,
+    #04b8ffce
+    );
+    position: fixed;
+    z-index: 5;
+}
+
+.logo {
+    float: left;
+    width: 350px;
+    height: 120;
+    margin: 0;
+    padding-top: 30px;
+}
+
+body {
+    font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
+    color: rgb(212, 209, 214);
+    background: rgba(32, 32, 32, 0.904);
+    width: 100%;
+    font-size: 18px;
+    z-index: 1;
+}
+
+form {
+    font-family: 'Helvetica Neue', sans-serif;
+    color: rgb(212, 209, 214);
+    width: 100%;
+    font-size: 18px;
+    z-index: 5;
+    align-content: center;
+    padding: 30px;
+}
+
+input[type=text] {
+    width: 50%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    box-sizing: border-box;
+}
+input[type=submit] {
+    width: 20%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 15px;
+}
+input[type=email] {
+    width: 50%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    box-sizing: border-box;
+}
+#message {
+    width: 50%;
+    height: 25%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    box-sizing: border-box;
+}
+a {
+    color: #ebebeb;
+    font-size: 20px;
+}
+
+.wrap {
+    position: relative;
+    margin: 0 auto;
+    width: 100%;
+    clear: both;
+}
+p {
+    color: #ebebeb;
+    margin: 10px 30px 20px 10px;
+    padding-bottom: 10px;
+}
+
+h1 {
+    color: #ebebeb;
+}
+
+h2 {
+    color: #ebebeb;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 24px;
+}
+
+h3 {
+    color: #ebebeb;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 15px;
+}
+.project {
+    border: 5px;
+    border-color: linear-gradient(
+    35deg, 
+    #f700ffbb,
+    #04b8ffb9
+    );
+    float: left;
+    width: 300px;
+    height: 300px;
+    padding: 20px 20px;
+    margin-top: 10px;
+    margin-bottom: 50px;
+    width: 33%;
+}
+
+#section {
+    width: 30%;
+    margin-left: 20px;
+}
+
+.container {
+    background: linear-gradient(
+        100deg, 
+        #f700ff50,
+        #04b8ff44
+        );
+    clear: both;
+    padding: 70px 80px;
+    width: 97%;
+    align-content: center;
+    position: absolute;
+    margin: 10px;
+    top: 175px;
+    z-index: 1;
+}
+
+.content1 {
+    background: linear-gradient(
+        35deg, 
+        #f700ff50,
+        #04b8ff44
+        );
+    clear: both;
+    padding: 70px 80px;
+    width: 100%;
+    align-content: center;
+    position: relative;
+    top: 140px;
+    z-index: 1;
+    }
+iframe {
+    width: 300px;
+    height: 300px;   
+}
+
+#profilesection {
+    font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
+    color: rgb(212, 209, 214);
+    width: 100%;
+    font-size: 18px;
+    z-index: 1;
+    padding: 10px;
+    float: left;
+    clear: left;
+}
+
+#profilepic {
+    padding: 20px 40px;
+    clear: both;
+    width: 50px;
+    height: 50px;
+    position: fixed;
+    float: left;
+    clear: both;
+}
