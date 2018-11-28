@@ -3,13 +3,17 @@ box-sizing: border-box;
 align-content: center;
 }  
 
+.logo
+ {
+     float: left;
+     margin-left: 0% auto;
+ }
 
 header {
     font-size: 30px;
     padding: 5px 20px 20px 0px;
     text-align: right;
     margin-bottom: 20px;
-    float: left;
     width: 100%;
     align-content: right;
     color: rgb(255, 255, 255);
@@ -80,12 +84,6 @@ a {
     font-size: 20px;
 }
 
-.wrap {
-    position: relative;
-    margin: 0 auto;
-    width: 100%;
-    clear: both;
-}
 p {
     color: #ebebeb;
     margin: 10px 30px 20px 10px;
@@ -94,6 +92,9 @@ p {
 
 h1 {
     color: #ebebeb;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-size: 40px;
+    align-content: center;
 }
 
 h2 {
@@ -147,8 +148,8 @@ h3 {
 .content1 {
     background: linear-gradient(
         35deg, 
-        #f700ff50,
-        #04b8ff44
+        #f700ff56,
+        #04b8ffaf
         );
     clear: both;
     padding: 70px 80px;
@@ -156,8 +157,9 @@ h3 {
     align-content: center;
     position: relative;
     top: 140px;
-    z-index: 1;
+    z-index: 2;
     }
+
 iframe {
     width: 300px;
     height: 300px;   
@@ -168,18 +170,37 @@ iframe {
     color: rgb(212, 209, 214);
     width: 100%;
     font-size: 18px;
-    z-index: 1;
+    z-index: 4;
     padding: 10px;
     float: left;
     clear: left;
+    margin-top: auto;
 }
 
 #profilepic {
-    padding: 20px 40px;
+    padding: 0 auto;
     clear: both;
-    width: 50px;
-    height: 50px;
-    position: fixed;
-    float: left;
+    width: 10%;
+    height: 100px;
+    position: relative;
+    margin-top: 20px;
+    z-index: 4;
+}
+
+#profilecontent {
+    float: right;
+    width: 90%;
+    margin-top: auto;
+    align-content: left;
+}
+
+#pastworks {
     clear: both;
+    width: 100%;
+    font-size: 32px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    align-content: center;
+    text-align: center;
+    margin: 20px -60px;
+    position: relative;
 }
