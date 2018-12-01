@@ -2,6 +2,11 @@
 box-sizing: border-box;
 align-content: center;
 }  
+*:before,
+*:after {
+box-sizing: border-box;
+}
+   
 
 .logo
  {
@@ -24,6 +29,9 @@ header {
     );
     position: fixed;
     z-index: 5;
+}
+header:hover {
+    color: #f700ffc4;
 }
 
 .logo {
@@ -72,7 +80,7 @@ input[type=submit] {
     background: transparent;
     color: white;
     border-style: outset;
-    border-color: #04b8ffce;
+    border-color: #04b8ff83;
     height: 50px;
     width: 100px;
     border-width: 5px;
@@ -98,9 +106,15 @@ input[type=email] {
     margin: 8px 0;
     box-sizing: border-box;
 }
+img {
+    margin: 10px;
+}
 a {
     color: #ebebeb;
     font-size: 20px;
+}
+a:hover {
+    color: #c003b7;
 }
 
 p {
@@ -148,11 +162,6 @@ h3 {
     margin-left: 20px;
 }
 
-.foo  {
-    cursor: auto;
-    cursor: url(Users/marcobrugo/Downloads/test.png) 4 12, auto;
-  }
-
 .container {
     background: linear-gradient(
         100deg, 
@@ -161,13 +170,17 @@ h3 {
         );
     clear: both;
     padding: 70px 80px;
+    margin-bottom: 10px;
     width: 97%;
     align-content: center;
     position: absolute;
     margin: 15px;
     top: 175px;
-    z-index: 1;
-    cursor: url(file:///Users/marcobrugo/Downloads/test.png), auto;
+    z-index: 2;
+}
+
+.container:hover {
+    cursor: url('file:///Users/marcobrugo/Desktop/code/wireframe2/images/1922239.svg') 10 12;
 }
 
 .content1 {
@@ -247,21 +260,26 @@ iframe {
     padding: 30px;
     margin: 0 0;
     position: relative;
-
-
 }
-#socialmedia:hover {
-    background-color: rgba(0, 255, 242, 0.548);
-    }
 
 #socialmedia2 {
     float: right;
     width: 10%;
-    margin-top: 0;
-    padding: 0;
+    margin-top: 75px;
+    padding: 30px;
     margin: 0 0;
-    position: relative;
 }
+
+#footer {
+    float: left;
+    width: 100%;
+    padding-bottom: 0 auto;
+    
+}
+
+#socialmedia:hover {
+    background-color: rgba(0, 255, 242, 0.548);
+    }
 
 #contact {
     width: 80%;
@@ -277,12 +295,20 @@ iframe {
 }
 
 footer {
-    height: 100px;
+    padding-bottom: 0;
     width: 100%;
     clear: both;
-    position: relative;
-    z-index: 2;
-    padding-bottom: 0 auto;
-    background-color: black;
-    margin-top: auto;
+    position: absolute;
+    z-index: 3;
+    background: linear-gradient(
+        35deg, 
+        #04b8ff83,
+        #f700ff67
+        );
+    margin-top: 130px;
+    float: left;
 }
+aside {
+    width: 20%;
+}
+
